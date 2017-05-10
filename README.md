@@ -1,7 +1,3 @@
-# frontend-butuhweb
-
-> Frontend butuhweb.com
-
 ## Build Setup
 
 ``` bash
