@@ -1,4 +1,4 @@
-import persentation from './persentation'
+import auth from './auth'
 
 const PageNotFound = (resolve) => {
   require.ensure(['@/pages/errors/404'], () => {
@@ -7,7 +7,7 @@ const PageNotFound = (resolve) => {
 }
 
 export default [
-  ...persentation,
+  ...auth,
   {
     name: 'Page Not Found',
     path: '*',
